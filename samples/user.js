@@ -1,0 +1,32 @@
+module.exports = {
+    "username": "amir@sodelia.ca",
+    "firstName": "Amir",
+    "lastName": "Ahangari",
+    "twoLetterCountryCode": "CA",
+    "contactNumber": null,
+    "sampleContactNumber": "(506) 234-5678",
+    "contactNumberDisplay": null,
+    "organisation": null,
+    "termsAgreed": false,
+    "contactNumberRequired": false,
+    "removeExternalLogins": false,
+    "contactNumberE164": null,
+    "registerToken": null,
+    "registerMetadata": null,
+    "resetAccessToken": false,
+    "registerPayloadId": null,
+    "registerPayloadKey": null,
+    "paymentGatewayCustomerId": null,
+    "photo": null,
+    "notes": null,
+    "ccVenueToken": null,
+    "updateCreditCard": false,
+    "createdDate": "2025-06-18T13:29:10Z",
+    "antiForgeryToken": null,
+    "language": null,
+    "createStripeCustomer": false,
+    "venueusertags": [
+        "125974"
+    ],
+    "id": "46134878"
+}
