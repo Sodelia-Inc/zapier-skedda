@@ -1,5 +1,7 @@
 const updateBooking = require('./updates/booking');
 const deleteBooking = require('./updates/booking-delete');
+const updateUser = require('./updates/user-update');
+const findUser = require('./searches/find-user');
 const newActivity = require('./triggers/activity');
 const newBookingUpdate = require('./triggers/booking-update');
 const newBookingCancellation = require('./triggers/booking-delete');
@@ -32,12 +34,15 @@ const App = {
   },
 
   // If you want your searches to show up, you better include it here!
-  searches: {},
+  searches: {
+    [findUser.key]: findUser,
+  },
 
   // If you want your creates to show up, you better include it here!
   creates: {
     [updateBooking.key]: updateBooking,
-    [deleteBooking.key]: deleteBooking
+    [deleteBooking.key]: deleteBooking,
+    [updateUser.key]: updateUser
   },
 };
 
