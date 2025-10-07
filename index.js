@@ -1,6 +1,7 @@
 const updateBooking = require('./updates/booking');
 const deleteBooking = require('./updates/booking-delete');
 const updateUser = require('./updates/user-update');
+const createUser = require('./updates/user-create');
 const findUser = require('./searches/find-user');
 const newActivity = require('./triggers/activity');
 const newBookingUpdate = require('./triggers/booking-update');
@@ -42,7 +43,8 @@ const App = {
   creates: {
     [updateBooking.key]: updateBooking,
     [deleteBooking.key]: deleteBooking,
-    [updateUser.key]: updateUser
+    [updateUser.key]: updateUser,
+    [createUser.key]: createUser
   },
 };
 
